@@ -6,15 +6,15 @@ My research project for Prof. Dodds, Spring 2016
 # Setup Instructions
 1. Install Python 3
 2. Install the [Anaconda python distribution](https://www.continuum.io/downloads)    
-3. Install OpenCV 3 with Anaconda by running the following:
+3. Install OpenCV 3 with Anaconda by running the following:  
 `conda install --channel https://conda.anaconda.org/menpo opencv3`
 4. Install the [IP Webcam Android app](https://play.google.com/store/apps/details?id=com.pas.webcam)    
 
 # Run the Script
 1. Open the IP Webcam app, and scroll down. Click the bottom button, "Start server." Once the server starts, you should be able to view the live video feed on the phone screen. Toward the bottom of the screen, you'll find a link containing an IP address.
-2. In the folder where you store `webcamToOpenCV.py`, run the following:
-`python webcamToOpenCV.py -ip <IP_ADDRESS>`
-where IP_ADDRESS is the IP address given by the IP Webcam app once it's running. Input the IP address as a string. For example, if the IP Webcam app tells me the video feed link is "http://134.173.207.119:8080", run:
-`python webcamToOpenCV.py -ip "134.173.207.119"`
+2. In the folder where you store `webcamToOpenCV.py`, run the following:  
+`python webcamToOpenCV.py -ip <IP_ADDRESS>`  
+where IP_ADDRESS is the IP address given by the IP Webcam app once it's running. Input the IP address as a string. For example, if the IP Webcam app tells me the video feed link is "http://134.173.207.119:8080", run:  
+`python webcamToOpenCV.py -ip "134.173.207.119"`  
 The output should be two adjacent windows, one containing the camera feed and one containing the camera feed run through OpenCV red color detection.
 3. (Optional) To adjust the size of the images given by the camera feed, select "Video preferences" from the IP Webcam app's home page, then select "Video resolution" and adjust the resolution. The windows output by the Python script should change size based on the change made in the app.
