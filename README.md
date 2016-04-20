@@ -23,3 +23,14 @@ The script's output is two adjacent windows, one containing the camera feed and 
 
 #Notes
 To adjust the size of the images given by the camera feed, select "Video preferences" from the IP Webcam app's home page, then select "Video resolution" and adjust the resolution. The windows output by the Python script should change size based on the change made in the app.
+
+If you're interested in modifying the script to grab something besides a live image feed, you'll find a page with more information about the camera feed if you follow the link displayed by the IP Webcam. It should look like the page shown below:
+
+![](http://i.imgur.com/kWBitGx.png)
+
+If you click "Other viewing methods" and select "Advanced," you'll be shown the page below that lists several IP Webcam service URLs:
+
+![](http://i.imgur.com/3nBnsFn.png)
+
+There are lots of other app customization and export options available on this website, so I recommend perusing it!
+
