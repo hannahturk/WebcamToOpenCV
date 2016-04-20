@@ -1,5 +1,5 @@
 # WebcamToOpenCV
-My research project for Prof. Dodds, Spring 2016
+My research project for Prof. Dodds at Harvey Mudd, Spring 2016
 
 [Link to Google Slides for my presentation on 4/18/16](https://docs.google.com/presentation/d/1Nhs-JVYeqCbM7noAmwrrT2DFmLRwvlDXckch8u8cTT8/edit?usp=sharing)     
 
@@ -8,7 +8,8 @@ My research project for Prof. Dodds, Spring 2016
 2. Install the [Anaconda python distribution](https://www.continuum.io/downloads)    
 3. Install OpenCV 3 with Anaconda by running the following:  
 `conda install --channel https://conda.anaconda.org/menpo opencv3`
-4. Install the [IP Webcam Android app](https://play.google.com/store/apps/details?id=com.pas.webcam)    
+4. Install [urllib](https://pypi.python.org/pypi/urllib3)    
+5. Install the [IP Webcam Android app](https://play.google.com/store/apps/details?id=com.pas.webcam)    
 
 # Run the Script
 1. Open the IP Webcam app, and scroll down. Click the bottom button, "Start server." Once the server starts, you should be able to view the live video feed on the phone screen. Toward the bottom of the screen, you'll find a link containing an IP address.
