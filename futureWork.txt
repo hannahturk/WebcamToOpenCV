@@ -1,3 +1,10 @@
 Future Work
 
-IP Webcam is the best Android app to get the job done, but I have yet to find a good iOS
+IP Webcam is the best Android app to get the job done, but I have yet to find a good iOS 
+app that provides similar functionality to IP Webcam.
+
+The closest I've gotten so far is by finding the IP Camera app available for both
+Android and iOS:  https://play.google.com/store/apps/details?id=com.shenyaocn.android.WebCam
+
+This is similar to IP Webcam, but has far fewer customization features, and also puts a
+watermark in its video feed if you're using the free version.
